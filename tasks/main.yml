@@ -1,0 +1,9 @@
+---
+# tasks file for gcp_secret_manager
+
+- name: Get specified secrets from GCP Secret Manager
+  include_tasks: get_secret.yml
+  with_items:
+    - "{{ gcp_secrets.keys() | list }}"
+
+...

@@ -1,0 +1,22 @@
+---
+# defaults file for gcp_secret_manager
+
+# var "gcp_secrets" must be defined as dictionary
+
+gcp_secrets: []
+  # SECRET_NAME_1: # same as 'name' but not obliged
+  #   name: SECRET_NAME_1 # as its exact name in GCP Secret Manager
+  #   file_path: "/PATH/TO/TARGET_FILE/SECRET_NAME_1_ON_REMOTE"
+  #   file_owner: root
+  #   file_group: root # if not specified, default is {{ file_owner }}
+  #   file_mode: '0400'
+  # SECRET_NAME_2:
+  #   name: SECRET_NAME_2
+  #   file_path: "/PATH/TO/TARGET_FILE/SECRET_NAME_2_ON_REMOTE"
+  #   file_owner: user
+  #   file_mode: '0644'
+  # SECRET_NAME_N:
+  #   name: SECRET_NAME_N
+  #   file_path: "/PATH/TO/TARGET_FILE/SECRET_NAME_N_ON_REMOTE"
+  #   file_owner: user2
+  #   file_mode: '0600'
