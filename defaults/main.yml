@@ -20,3 +20,5 @@ gcp_secrets: []
   #   file_path: "/PATH/TO/TARGET_FILE/SECRET_NAME_N_ON_REMOTE"
   #   file_owner: user2
   #   file_mode: '0600'
+
+...
