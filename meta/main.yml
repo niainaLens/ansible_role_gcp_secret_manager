@@ -1,0 +1,35 @@
+galaxy_info:
+  role_name: ansible_role_gcp_secret_manager
+  author: Niaina Lens
+  description: Ansible role for GCP Secret Manager
+  issue_tracker_url: https://github.com/niainaLens/ansible_role_gcp_secret_manager/issues/tracker
+  license: Apache
+  min_ansible_version: 2.9
+
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  - name: Ubuntu
+    versions:
+    - all
+  - name: Rhel
+    versions:
+    - all
+  - name: CentOS
+    versions:
+    - all
+  - name: Rocky Linux
+    versions:
+    - all
+
+  galaxy_tags:
+    - gcp
+    - googlecloudplateform
+    - secretmanager
+    - secret
+    - vault
+
+dependencies: []
+
+...
