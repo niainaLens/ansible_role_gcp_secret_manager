@@ -12,6 +12,12 @@ Requirements
 
 > Secret Manager (secretmanager.googleapis.com)
 
+```
+$ gcloud services list --available | grep Secret
+secretmanager.googleapis.com
+$ gcloud services enable secretmanager.googleapis.com
+```
+
 Role Variables
 --------------
 
