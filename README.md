@@ -70,6 +70,12 @@ Example Playbook
     - gcp_secret_manager
 ```
 
+What to improve
+------------
+
+- [ ] Manage secrets: add, edit, delete
+- [ ] Edit secret properties (version, replication, location, labels, iam)
+
 License
 -------
 
